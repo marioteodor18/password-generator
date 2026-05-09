@@ -19,10 +19,10 @@ def check_strength(password):
 def generate_password():
     length = length_slider.get()
     chars = ""
-    if var_upper.get():   chars += string.ascii_uppercase
-    if var_lower.get():   chars += string.ascii_lowercase
-    if var_digits.get():  chars += string.digits
-    if var_special.get(): chars += string.punctuation
+    if var_upper.get():chars += string.ascii_uppercase
+    if var_lower.get():chars += string.ascii_lowercase
+    if var_digits.get():chars += string.digits
+    if var_special.get():chars += string.punctuation
     if not chars:
         result_var.set("Selecteaza cel putin o optiune!")
         return
