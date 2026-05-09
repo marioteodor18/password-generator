@@ -76,7 +76,7 @@ git clone https://github.com/marioteodor18/password-generator.git
 cd password-generator
 
 # Run the app
-python "password_generator (2).py"
+python "password_generator.py"
 ```
 
 ---
